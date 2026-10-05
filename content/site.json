@@ -1,0 +1,38 @@
+{
+"company":{"name":"IQ Operations Ltd","short":"IQ OPERATIONS","slogan":"Integrity in Oversight, Excellence in Execution.","region":"England and Wales","crn":"[Insert CRN]","address":"[Insert UK Address]","email":"contact@iqoperations.co.uk","phone":"+44 (0)[Insert Phone Number]"},
+"hero":{"headline":"Strategic Operations, Digital Solutions & Facility Oversight","sub":"Streamlining day-to-day business operations across the UK with integrated management consultancy, bespoke IT development, and remote administrative support.","cta1":"Explore Our Services","cta2":"Contact Our Team"},
+"services":[
+{"title":"Facility & Site Operations Oversight","short":"Comprehensive management of scheduled building maintenance, hygiene logistics, and on-site property supervision to ensure continuous operational quality.","detail":"We provide complete operational coordination for commercial real estate, offices, and retail premises. Our focus centers on contract supervision, hygiene and scheduled cleaning logistics, routine building maintenance management, and ensuring site safety and regulatory compliance.","what":"Overseeing site operations, managing facility hygiene, and providing on-site administrative and supervisory personnel.","example":"Managing routine facility maintenance, site supervision, and scheduled cleaning operations for commercial office buildings and retail premises in the UK."},
+{"title":"Digital Solutions & IT Development","short":"End-to-end web development, platform maintenance, and custom administrative software tools designed to digitize and optimize your business workflows.","detail":"Our technical division delivers custom web application build, corporate website maintenance, client portal development, and ongoing IT support. We build scalable digital infrastructure designed to streamline administrative workflows and improve client engagement.","what":"Custom website design, web app development, and technical support.","example":"Designing and developing responsive corporate websites, client portals, and administrative dashboards for small-to-medium UK businesses."},
+{"title":"Remote Monitoring & Process Assistance","short":"Dedicated remote control room support, administrative process tracking, and incident logging to maintain 24/7 operational continuity.","detail":"We deliver dedicated remote process assistance and control room monitoring services. Our team manages continuous workflow tracking, incident logging, daily operational reporting, and communication dispatch for client control centers.","what":"Remote process monitoring, administrative assistance, and workflow logging.","example":"Providing 24/7 remote monitoring support, logging incident reports, and managing administrative desk support for corporate clients."},
+{"title":"Administrative Resource Management","short":"Vetted personnel coordination and operational scheduling to supply client workflows with qualified administrative and site support teams.","detail":"We assist organizations with personnel logistics, shift scheduling, workflow coordination, and administrative support staff sourcing. By deploying vetted personnel managed under strict service level agreements (SLAs), we help businesses scale operations efficiently.","what":"Sourcing, vetting, and coordinating administrative and operational support staff to assist client workflows.","example":"Assisting corporate clients with staffing logistics, scheduling assistance, and administrative personnel management."}
+],
+"intro":{"title":"Operational Leadership & Strategic Support","body":"IQ Operations Ltd delivers integrated operational management, digital development, and corporate support services tailored to UK businesses. We bridge the gap between technical innovation and hands-on facility leadership, helping organizations improve process efficiency, enforce strict service-level compliance, and manage daily administrative workflows. Whether scaling your digital infrastructure or coordinating multi-site operations, our structured approach ensures high-quality execution and measurable results.","button":"Learn More About Us"},
+"why":[
+{"title":"Tailored Operational Solutions","text":"Custom strategies built around your specific business model, whether managing digital assets or physical facility logistics."},
+{"title":"Quality Control & Compliance","text":"Rigorous oversight and regular auditing to ensure all third-party vendors and operational teams meet defined service standards."},
+{"title":"Scalable Administrative Support","text":"Flexible resource management that adapts to your contract demands, keeping operational overhead lean and efficient."}
+],
+"process":[
+{"title":"Consultation & Audit","text":"We review your current administrative, digital, or facility workflows."},
+{"title":"Strategy & Planning","text":"We design an operational plan and assign dedicated management oversight."},
+{"title":"Execution & Supervision","text":"Our team deploys digital tools, remote assistance, or site supervision."},
+{"title":"Review & Optimization","text":"Regular reporting ensures continuous performance and compliance tracking."}
+],
+"cta":{"headline":"Ready to Optimize Your Business Operations?","sub":"Partner with IQ Operations Ltd for reliable administrative management, IT development, and facility oversight.","button":"Get in Touch Today"},
+"about":{
+"title":"About IQ Operations Ltd","sub":"Bridging Strategic Management, Digital Innovation, and On-Site Operational Leadership across the United Kingdom.",
+"overview":["IQ Operations Ltd is a premier UK operational support and management consultancy firm. We specialize in helping commercial clients, property managers, and growing businesses optimize their daily workflows, digitize their service platforms, and maintain rigorous operational standards.","Founded on the principles of transparency, structured oversight, and service quality, our mission is to provide end-to-end management solutions that allow our clients to focus on core growth while we handle the complexities of facility supervision, digital maintenance, remote monitoring, and administrative resource logistics."],
+"projects":[
+{"title":"Commercial Facility Management","text":"Overseeing multi-tenant site supervision, scheduled hygiene management, and maintenance logistics for commercial property portfolios."},
+{"title":"Custom Enterprise Portals","text":"Designing and deploying secure client reporting dashboards, administrative portals, and business websites."},
+{"title":"24/7 Operations Monitoring","text":"Managing remote desk assistance and operational incident logging for UK business infrastructure."}
+],
+"why":[
+{"title":"Compliance & Quality First","text":"Every project is managed under strict quality assurance frameworks and regular performance audits."},
+{"title":"Scalable Delivery","text":"Our agile resource management model allows us to adapt rapidly to client contract demands without ballooning overhead."},
+{"title":"Direct Management Leadership","text":"Active director oversight ensures clear communication, direct accountability, and consistent contract execution."}
+],
+"cta":{"headline":"Looking for a Dependable Operational Partner?","sub":"Discuss your facility oversight, digital project, or administrative resource needs with our senior management team.","button":"Contact Our Team Today"}},
+"legal":{"privacy":"[Insert Privacy Policy text]","terms":"[Insert Terms & Conditions text]"}
+}
