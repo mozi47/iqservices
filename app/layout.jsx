@@ -1,5 +1,6 @@
+import "./globals.css";
 import Link from "next/link";
-import { getSite } from "@/lib/site";
+import s from "@/content/site.json";
 
 const nav = [
   ["Home", "/"],
@@ -16,24 +17,30 @@ const footerServices = [
 ];
 
 export default function PublicLayout({ children }) {
-  const s = getSite();
   const c = s.company;
   const year = new Date().getFullYear();
 
   return (
-    <>
-      <header>
-        <div className="w nav">
-          <Link href="/" className="logo">{c.short}</Link>
-          <nav>
-            {nav.map(([t, h]) => <Link key={h} href={h}>{t}</Link>)}
-          </nav>
-        </div>
-      </header>
+    <html lang="en-GB">
+      <body suppressHydrationWarning>
+        <header>
+          <div className="w nav">
+            <Link href="/" className="logo">
+              {c.short}
+            </Link>
+            <nav>
+              {nav.map(([t, h]) => (
+                <Link key={h} href={h}>
+                  {t}
+                </Link>
+              ))}
+            </nav>
+          </div>
+        </header>
 
-      <main>{children}</main>
+        <main>{children}</main>
 
-      <footer className="site-footer">
+        <footer className="site-footer">
           <div className="w footer-grid">
             {/* Column 1: Brand + slogan */}
             <div className="footer-col">
@@ -93,6 +100,7 @@ export default function PublicLayout({ children }) {
             </div>
           </div>
         </footer>
-    </>
+      </body>
+    </html>
   );
 }
