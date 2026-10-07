@@ -64,6 +64,9 @@ header {
   letter-spacing: 0.14em;
   color: var(--pine);
 }
+.logo-image{
+  object-contain: cover;
+}
 .nav nav {
   display: flex;
   gap: 22px;

@@ -1,6 +1,7 @@
 import "./globals.css";
 import Link from "next/link";
 import s from "@/content/site.json";
+import Image from "next/image";
 
 const nav = [
   ["Home", "/"],
@@ -26,7 +27,14 @@ export default function PublicLayout({ children }) {
         <header>
           <div className="w nav">
             <Link href="/" className="logo">
-              {c.short}
+              <Image
+                src="/logo.svg"
+                alt="IQ Operations"
+                width={150}
+                height={60}
+                className="logo-image"
+                priority
+              />
             </Link>
             <nav>
               {nav.map(([t, h]) => (
@@ -44,7 +52,13 @@ export default function PublicLayout({ children }) {
           <div className="w footer-grid">
             {/* Column 1: Brand + slogan */}
             <div className="footer-col">
-              <h4 className="footer-brand">{c.short}</h4>
+              <Image
+                src="/logo.svg"
+                alt={c.name}
+                width={230}
+                height={80}
+                className="logo-image"
+              />
               <p className="footer-slogan">{c.slogan}</p>
               <p className="footer-region">Registered in {c.region}</p>
             </div>
