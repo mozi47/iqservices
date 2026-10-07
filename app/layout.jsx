@@ -2,6 +2,7 @@ import "./globals.css";
 import Link from "next/link";
 import s from "@/content/site.json";
 import Image from "next/image";
+import SiteNav from "@/components/SiteNav";
 
 const nav = [
   ["Home", "/"],
@@ -36,13 +37,8 @@ export default function PublicLayout({ children }) {
                 priority
               />
             </Link>
-            <nav>
-              {nav.map(([t, h]) => (
-                <Link key={h} href={h}>
-                  {t}
-                </Link>
-              ))}
-            </nav>
+
+            <SiteNav />
           </div>
         </header>
 
@@ -50,7 +46,6 @@ export default function PublicLayout({ children }) {
 
         <footer className="site-footer">
           <div className="w footer-grid">
-            {/* Column 1: Brand + slogan */}
             <div className="footer-col">
               <Image
                 src="/logo.svg"
@@ -63,7 +58,6 @@ export default function PublicLayout({ children }) {
               <p className="footer-region">Registered in {c.region}</p>
             </div>
 
-            {/* Column 2: Quick links */}
             <div className="footer-col">
               <h5>Quick Links</h5>
               <ul>
@@ -75,7 +69,6 @@ export default function PublicLayout({ children }) {
               </ul>
             </div>
 
-            {/* Column 3: Services */}
             <div className="footer-col">
               <h5>Services</h5>
               <ul>
@@ -87,7 +80,6 @@ export default function PublicLayout({ children }) {
               </ul>
             </div>
 
-            {/* Column 4: Contact */}
             <div className="footer-col">
               <h5>Contact</h5>
               <ul className="footer-contact">
