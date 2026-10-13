@@ -79,18 +79,6 @@ export default function PublicLayout({ children }) {
                 ))}
               </ul>
             </div>
-
-            <div className="footer-col">
-              <h5>Contact</h5>
-              <ul className="footer-contact">
-                <li>
-                  <a href={`mailto:${c.email}`}>{c.email}</a>
-                </li>
-                <li>{c.phone}</li>
-                <li>{c.address}</li>
-                <li>CRN: {c.crn}</li>
-              </ul>
-            </div>
           </div>
 
           <div className="footer-bottom">

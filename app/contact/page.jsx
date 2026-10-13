@@ -11,8 +11,9 @@ export default function Contact() {
           <div className="grid">
             <div className="card">
               <h3>Email</h3>
-              <p>
+              <p className="contact-email">
                 <a href={`mailto:${c.email}`}>{c.email}</a>
+                <a href={`mailto:${c.email2}`}>{c.email2}</a>
               </p>
             </div>
             <div className="card">

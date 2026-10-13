@@ -64,7 +64,7 @@ header {
   letter-spacing: 0.14em;
   color: var(--pine);
 }
-.logo-image{
+.logo-image {
   object-contain: cover;
 }
 
@@ -116,7 +116,7 @@ section {
 .grid {
   display: grid;
   gap: 22px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 30px;
 }
 .card {
@@ -131,6 +131,13 @@ section {
   margin: 0;
   color: var(--mut);
 }
+
+.card .contact-email{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .ex {
   margin-top: 12px !important;
   font-size: 15px;
@@ -169,7 +176,7 @@ section {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+  grid-template-columns: 1.4fr 1fr 1fr;
   gap: 40px;
   padding: 56px 22px 40px;
   max-width: 1120px;
@@ -288,7 +295,7 @@ section {
 .nav-toggle {
   display: none;
   margin-left: auto;
-  margin-right: 8px;  
+  margin-right: 8px;
   background: transparent;
   border: 1px solid var(--line);
   border-radius: 4px;
@@ -304,7 +311,9 @@ section {
   height: 2px;
   background: var(--pine);
   border-radius: 2px;
-  transition: transform 0.2s, opacity 0.2s;
+  transition:
+    transform 0.2s,
+    opacity 0.2s;
 }
 
 .primary-nav {
@@ -355,7 +364,10 @@ section {
     max-height: 0;
     opacity: 0;
     visibility: hidden;
-    transition: max-height 0.25s ease, opacity 0.2s ease, visibility 0.2s;
+    transition:
+      max-height 0.25s ease,
+      opacity 0.2s ease,
+      visibility 0.2s;
   }
 
   .primary-nav.is-open {
